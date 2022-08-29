@@ -1,0 +1,48 @@
+@media screen and (max-width: 1199px) {
+    .activities-section {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .activities-section{
+        padding-top: 0px;
+    }
+
+    .secondary-header {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+        margin-bottom: 50px;
+    }
+
+    .activities {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .activity-item {
+        flex-basis: calc((100% - 60px) / 3);
+        display: block;
+        position: relative;
+    }
+
+    .overlay-activity {
+        position: absolute;
+        transform: translateY(-100%);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--main-light-color);
+        background-color: rgba(47, 48, 58, 0.8);
+        width: 100%;
+        padding: 27px;
+        text-align: center; 
+    }
+}
