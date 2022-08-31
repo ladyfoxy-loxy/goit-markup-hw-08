@@ -3,6 +3,7 @@
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
         url("../images/hero/mobile/mobile-bg-image.jpg");
         max-width: 767px;
+        
     }
 }
 
@@ -20,7 +21,8 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     background-size: cover;
     background-position: center;
     margin: 0 auto;
-    padding: 118px 0px 118px;
+    padding-top: 118px;
+    padding-bottom: 118px;
 }
 
 .main-title {
